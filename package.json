@@ -1,0 +1,12 @@
+{
+  "name": "mobypicture-delete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joris Blaak <joris@label305.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "promise-parallel-throttle": "^2.2.0",
+    "superagent": "^2.3.0"
+  }
+}
