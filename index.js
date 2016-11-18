@@ -27,7 +27,7 @@ const extractPhotoLInks = function (res) {
 
 Promise.all(links.map(link => {
     return new Promise(resolve => {
-        request.get('http://www.mobypicture.com/my/stream/1')
+        request.get(link)
             .set('Cookie', cookie)
             .end(function (err, res) {
                 if (err) {
